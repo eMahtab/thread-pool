@@ -1,4 +1,4 @@
-# Thread Pool
+# Thread Pool & ExecutorService
 
 # Implementation :
 ```java
@@ -73,4 +73,5 @@ Executing : Task 10
 
 
 # References :
-https://howtodoinjava.com/java/multi-threading/java-thread-pool-executor-example
+1. https://howtodoinjava.com/java/multi-threading/java-thread-pool-executor-example
+2. https://www.baeldung.com/java-executor-service-tutorial
