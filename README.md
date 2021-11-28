@@ -1,5 +1,10 @@
 # Thread Pool & ExecutorService
 
+### Why ThreadPool
+A thread pool helps mitigate the issue of performance by reducing the number of threads needed and managing their lifecycle.
+
+Essentially, threads are kept in the thread pool until they’re needed, after which they execute the task and return the pool to be reused later. 
+
 # Implementation :
 ```java
 import java.util.concurrent.ExecutorService;
