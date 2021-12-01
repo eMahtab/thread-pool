@@ -1,5 +1,9 @@
 # Thread Pool & ExecutorService
 
+A thread pool is a pool threads that can be "reused" to execute tasks, so that each thread may execute more than one task. A thread pool is an alternative to creating a new thread for each task you need to execute.
+
+Creating a new thread comes with a performance overhead compared to **reusing a thread** that is already created. That is why **reusing an existing thread to execute a task can result in a higher total throughput** than creating a new thread per task.
+
 ### Why ThreadPool
 A thread pool helps mitigate the issue of performance by reducing the number of threads needed and managing their lifecycle.
 
